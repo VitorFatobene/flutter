@@ -1,4 +1,4 @@
-import 'package:atividade_receitas_professor/atividade_receitas/pesquisa_receita.dart';
+import 'package:atividade_receitas_professor/atividade_receitas/tela_principal.dart';
 import 'package:flutter/material.dart';
 
 class AtividadeReceitas extends StatelessWidget {
@@ -8,7 +8,7 @@ class AtividadeReceitas extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PesquisaReceita(),
+      home: TelaPrincipal(),
     );
   }
 }
